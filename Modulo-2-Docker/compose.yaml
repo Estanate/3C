@@ -1,0 +1,7 @@
+services:
+  httpd:
+    build: .
+    container_name: httpd
+    ports:
+     - "8080:80"
+
