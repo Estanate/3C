@@ -62,6 +62,16 @@ header {
     width: 2rem;
 }
 
+#raio{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
 
 .nav {
     display: flex;
@@ -73,10 +83,27 @@ header {
     height:100px;
     color: #858585;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav a:hover{
+    color: #b4b4b4;
+    font-size: 1.25rem;
 }
 
 #aba-aberta{
     color: #fff;
+}
+
+#AA{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* BARRA LATERAL */
@@ -139,12 +166,20 @@ justify-content: space-between;
 /* TEXTO */
 .User{
     font-size: 2rem;
-    font-weight: bold;
 }
+
+.total{
+    font-size: 0.9rem;
+    color: #858585;
+    margin-top: -40%;
+}
+.info-total{
+    padding-top: 100%;
+}
+
 
 .catalogo{
     font-size: 2rem;
-    font-weight: bold;
 }
 
 .info-produto {
