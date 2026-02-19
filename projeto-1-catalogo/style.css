@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI';
+    display: flex;
+    background-image: linear-gradient(
+        rgb(184, 146, 152),
+        rgb(72, 91, 199)
+    );
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #191a21;
+    color: #fff;
+    margin: 10px 10px 10px 0;
+    padding: 10px 3%;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    align-self: center;
+    margin: 7%;
+    margin-left: 0%;
+}
+
+/* ASIDE */
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #191a21;
+    color: #fff;
+    margin: 7%;
+    margin-right: 0%;
+    padding: 10px;
+    padding-left: 500px;
+    border: 2px solid #2b2c32;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ICONES */
+.icons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.icons {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    width: 2rem;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a {
+    color: #858585;
+    text-decoration: none;
+}
+
+/* BARRA LATERAL */
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+
+/* CARDS / BORDAS */
+.best-seller,
+.products-i,
+.products {
+    margin: 1%;
+    border: 2px solid #2b2c32;
+    border-radius: 5px;
+}
+
+/* PRODUTOS */
+
+.best-seller{
+    display: column;
+    padding: 1%;
+}
+
+.best-seller img{
+width: 70%;
+border-radius: 10%;
+}
+
+.doisjunto {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.best-seller-info{
+display: flex;
+justify-content: space-between;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.products img {
+    width: 90%;
+    padding: 3%;
+    border-radius: 10%;
+}
+
+.products-i{
+    padding: 1%;
+}
+
+.products-i img{
+    width: 50%;
+    border-radius: 10%;
+}
+
+/* TEXTO */
+.User{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.catalogo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.info-produto {
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.unidades {
+    color: #a2a2a2;
+    font-size: 1.2rem;
+}
+
+.price {
+    font-size: 1.5rem;
+}
+
+.main-name{
+    font-size: 2rem;
+}
+
+.main-price{
+    font-size: 2rem;
+}
+
+/* SEÇÕES */
+.main-section,
+.products-i,
+.bottom-section {
+    display: flex;
+}
+
+.main-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+
+
