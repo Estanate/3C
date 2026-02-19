@@ -10,13 +10,14 @@
 <body>
     <div id="music-container">
         <h4 id="playlist">🔴 Recording</h4>
-        <img id="capa" src="/images/capa-13-lentes.jpg"></img>
+        <img id="capa" alt="Disc Cover"></img>
+        <audio id="audio" ></audio>
         <div id="abaixo-capa">
             <div id="info-msc">
-                <div id="nome-msc">Primavera</div>
+                <div id="nome-msc">Nome da Musica</div>
                 <div id="nome-banda" class="light-color">Yung Lixo</div>
             </div>
-            <div id="like" class="button light-color"><i class="bi bi-heart"></i></div>
+            <button id="like" class="button light-color"><i class="bi bi-heart"></i></button>
         </div>
         <div id="progress-bar">
             <div id="current-progress">
@@ -24,12 +25,13 @@
             </div>
         </div>
         <div id="button-container">
-            <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
-            <div id="previous" class="button button-navigate"><i class="bi bi-skip-start-circle-fill"></i></div>
-            <div id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></div>
-            <div id="next" class="button button-navigate"><i class="bi bi-skip-end-circle-fill"></i></div>
-            <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
+            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button button-navigate"><i class="bi bi-skip-start-circle-fill"></i></button>
+            <button id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button button-navigate"><i class="bi bi-skip-end-circle-fill"></i></button>
+            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
         </div>
     </div>
+    <script src="script.js"></script>
     </body>
 </html>
