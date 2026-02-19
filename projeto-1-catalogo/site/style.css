@@ -1,44 +1,27 @@
 body {
     margin: 0;
-    width: 100%;
-    height: 100%;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     background-image: linear-gradient(
         rgb(184, 146, 152),
         rgb(72, 91, 199)
     );
+    height: 100vh;
+    grid-template-columns: 40px 1fr 4fr 40px;
+    grid-template-rows: auto;
 }
 
 /* MAIN */
 main {
-    width: 100%;
-    height: 100%;
     background-color: #191a21;
     color: #fff;
     margin: 10px 10px 10px 0;
     padding: 10px 3%;
-    border-radius: 50px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
+    border-radius:0px 50px 50px 0px ;
     margin: 7%;
     margin-left: 0%;
 }
 
-/* ASIDE */
-aside {
-    display: flex;
-    flex-direction: column;
-    background-color: #191a21;
-    color: #fff;
-    margin: 7%;
-    margin-right: 0%;
-    padding: 10px;
-    border: 2px solid #2b2c32;
-    border-radius: 50px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-}
 
 /* HEADER */
 header {
@@ -106,14 +89,27 @@ header {
 
 /* BARRA LATERAL */
 .barra-lateral {
-    display: flex;
     flex-direction: column;
     padding-left: 3%;
     padding-right: 100px;
     justify-content: space-between;
 }
 
-/* CARDS / BORDAS */
+/* ASIDE */
+aside {
+    display: flex;
+    background-color: #191a21;
+    color: #fff;
+    margin: 7%;
+    margin-right: 0%;
+    padding: 10px;
+    border: 2px solid #2b2c32;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* bordas */
 .best-seller,
 .products-i,
 .products {
@@ -125,7 +121,6 @@ header {
 /* PRODUTOS */
 
 .best-seller{
-    display: column;
     padding: 1%;
 }
 
@@ -211,6 +206,3 @@ justify-content: space-between;
     flex-direction: column;
     justify-content: space-between
 }
-
-
-

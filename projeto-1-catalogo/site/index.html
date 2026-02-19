@@ -6,18 +6,24 @@
     <title>Catálogo de Inventario</title>
     <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <aside class="barra-lateral">
-            <p class="User">User</p>
+            <div class="doisjunto">
+                <p class="User">User</p>
+                <p class="total">575 produtos</p>
+            </div>
             <nav class="nav">
                 <a href="#" >Home</a>
-                <a href="#" ><strong>Catalog</strong></a>
+                <a href="#" id="aba-aberta">Catalog</a>
                 <a href="#" >Orders</a>
                 <a href="#" >Reports</a>
             </nav>
-            <p>AA</p>
+            <p id="AA">AA</p>
     </aside>
     <main class="container">
         <header>
@@ -25,7 +31,7 @@
             <div class="icons-container">
                 <a href="#" class="icons"><i class="fi fi-rr-search"></i></a>
                 <a href="#" class="icons"><i class="fi fi-rr-menu-burger"></i></a>
-                <a href="#" class="icons"><i class="fi fi-rr-bolt"></i></a>
+                <a href="#" class="icons" id="raio"><i class="fi fi-rr-bolt"></i></a>
             </div>
         </header>
         <section class="main-section">
