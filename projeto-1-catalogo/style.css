@@ -69,6 +69,7 @@ header {
 }
 
 .nav a {
+    font-size: 1.2rem;
     height:100px;
     color: #858585;
     text-decoration: none;
