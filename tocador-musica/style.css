@@ -33,6 +33,7 @@ button{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* margin-top: 1rem; */
 }
 
 .button{
@@ -74,6 +75,8 @@ button{
     height: 3px;
     width: 100%;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
 #current-progress{
@@ -84,11 +87,26 @@ button{
     border-radius: inherit;
 }
 
+#bola{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
 #progress-container{
-    padding-bottom: 1em;
     cursor: pointer;
 }
 
 .button-active{
     color: rgb(27, 163, 27);
+}
+
+#time-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5rem;
+    color: rgb(139, 153, 156);
 }
