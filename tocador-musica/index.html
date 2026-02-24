@@ -8,35 +8,35 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div id="music-container">
-        <h4 id="playlist">🔴 Recording</h4>
-        <img id="capa" alt="Disc Cover"></img>
+    <main class="music-container">
+        <h1 class="playlist">🔴 Recording</h1>
+        <img id="capa" class="capa" alt="Disc Cover"></img>
         <audio id="audio" ></audio>
-        <div id="abaixo-capa">
-            <div id="info-msc">
-                <div id="nome-msc">Nome da Musica</div>
-                <div id="nome-banda" class="light-color">Yung Lixo</div>
+        <section class="abaixo-capa">
+            <div class="info-msc">
+                <div id="nome-msc" class="nome-msc">Nome da Musica</div>
+                <div id="nome-banda" class="nome-banda light-color">Yung Lixo</div>
             </div>
             <button id="like" class="button light-color"><i class="bi bi-heart"></i></button>
-        </div>
-        <div id="progress-container">
-            <div id="progress-bar">
-                <div id="current-progress"></div>
-                <div id="bola"></div>
+        </section>
+        <section id="progress-container" class="progress-container">
+            <div class="progress-bar">
+                <div id="current-progress" class="current-progress"></div>
+                <div class="bola"></div>
             </div>
-            <div id="time-box">
+            <div class="time-box">
                     <div id="song-time">0:00</div>
                     <div id="total-time">0:00</div>
                 </div>
-        </div>
-        <div id="button-container">
-            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
-            <button id="previous" class="button button-navigate"><i class="bi bi-skip-start-circle-fill"></i></button>
-            <button id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></button>
-            <button id="next" class="button button-navigate"><i class="bi bi-skip-end-circle-fill"></i></button>
-            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
-        </div>
-    </div>
+        </section>
+        <section class="button-container">
+            <button id="shuffle" ><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button-navigate"><i class="bi bi-skip-start-circle-fill"></i></button>
+            <button id="play" class="button-biggest"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button-navigate"><i class="bi bi-skip-end-circle-fill"></i></button>
+            <button id="repeat" ><i class="bi bi-repeat"></i></button>
+        </section>
+    </main>
     <script src="script.js"></script>
     </body>
 </html>
