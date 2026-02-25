@@ -10,12 +10,16 @@
 @media (min-width: 768px){
     .wrapper{
     display: grid;
-    grid-template-columns: [site-start] repeat(5, 1fr) [site-end];
-    grid-auto-rows:200px ;
+    grid-template-columns: [site-start] 1fr [content-start] repeat(4, 1fr) [site-end];
+    grid-template-rows: [site-top] 200px [content-top] 200px [content-bottom] 200px [site-bottom];
     grid-gap: .5rem;
     }
 }
 
 header, footer{
     grid-column: site;
+}
+
+main{
+    grid-column-start: content;
 }
