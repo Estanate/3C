@@ -1,0 +1,51 @@
+h1{
+    color: red;
+}
+
+/* 2 - SInatxe */
+@media screen and (max-width: 500px) {
+    /* MAX WIDTH = TELAS MENORES QUE X RESOLUÇÃO */
+    h1{
+        color: blue;
+    }
+}
+
+/* 3- outros modos */
+/* screen, print, speech, all */
+
+@media print and (max-width:500px) {
+    h1{
+        color: green;
+    }
+}
+
+@media (max-width:600px){
+    h2{
+        color:purple;
+    }
+}
+
+/* MOBILE FIRST */
+@media (min-width:200px){
+    h2{
+        color: teal;
+    }
+}
+
+/* AND na media query */
+@media (min-width:300px) and (max-width:400px){
+    h3{
+        font-size: 200px;
+    }
+}
+
+/* ORIENTATION */
+@media (orientation: landscape){
+    h3{
+        color: brown;
+    }
+}
+
+/* CUIDADO AO APLICAR MEDIA QUERY */
+/* ordem importa (mais abaixo tem maior prioridade)  */
+

@@ -1,0 +1,21 @@
+.wrapper *{
+   background-color: royalblue; 
+   padding: 1rem;
+}
+
+.wrapper *:nth-child(even){
+    background-color: skyblue;
+}
+
+@media (min-width: 768px){
+    .wrapper{
+    display: grid;
+    grid-template-columns: [site-start] repeat(5, 1fr) [site-end];
+    grid-auto-rows:200px ;
+    grid-gap: .5rem;
+    }
+}
+
+header, footer{
+    grid-column: site;
+}
